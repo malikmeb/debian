@@ -29,7 +29,7 @@ sudoer()
 }
 Cartes()
 {
-	ip a | grep ens 
+	ip a 
 	echo '*****insérer la carte a configuré:*****'
 	read -p "Saisir votre choix :" carte1
 	echo " " >> /etc/network/interfaces
